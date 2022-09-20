@@ -8,7 +8,7 @@ on:
 
 env:
   POSTGRESQL_VERSION: 13.1
-  DB_DATABASE: fullstack
+  DB_DATABASE: testing
   DB_USER: root
   DB_PASSWORD: root
   JAVA_VERSION: 17
