@@ -223,7 +223,7 @@ function App() {
             </Content>
             <Footer style={{textAlign: 'center'}}>
                 <Divider>
-                    <p>Developed By Abran</p>
+                    <p>Developed By Abran L</p>
                 </Divider>
             </Footer>
         </Layout>
