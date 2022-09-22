@@ -70,10 +70,10 @@
             <plugin>
                 <groupId>com.google.cloud.tools</groupId>
                 <artifactId>jib-maven-plugin</artifactId>
-                <version>2.5.2</version>
+                <version>3.3.0</version>
                 <configuration>
                     <from>
-                        <image>openjdk:17</image>
+                        <image>amazoncorretto:17.0.4</image>
                     </from>
                     <container>
                         <ports>
@@ -96,10 +96,10 @@
                     <plugin>
                         <groupId>com.google.cloud.tools</groupId>
                         <artifactId>jib-maven-plugin</artifactId>
-                        <version>2.5.2</version>
+                        <version>3.3.0</version>
                         <configuration>
                             <from>
-                                <image>openjdk:17</image>
+                                <image>amazoncorretto:17.0.4</image>
                             </from>
                             <container>
                                 <ports>
@@ -148,10 +148,10 @@
                     <plugin>
                         <groupId>com.google.cloud.tools</groupId>
                         <artifactId>jib-maven-plugin</artifactId>
-                        <version>2.5.2</version>
+                        <version>3.3.0</version>
                         <configuration>
                             <from>
-                                <image>openjdk:17</image>
+                                <image>amazoncorretto:17.0.4</image>
                             </from>
                             <container>
                                 <ports>
@@ -202,7 +202,7 @@
                         <artifactId>frontend-maven-plugin</artifactId>
                         <!-- Use the latest released version:
                         https://repo1.maven.org/maven2/com/github/eirslett/frontend-maven-plugin/ -->
-                        <version>1.11.2</version>
+                        <version>1.12.1</version>
                         <configuration>
                             <nodeVersion>v4.6.0</nodeVersion>
                             <workingDirectory>src/frontend</workingDirectory>
