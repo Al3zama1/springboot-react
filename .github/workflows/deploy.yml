@@ -14,7 +14,7 @@ env:
   # Java
   JAVA_VERSION: 17
   # DockerHub
-  DOCKER_HUB_USERNAME: al3zama
+  DOCKERHUB_USERNAME: al3zama
   #AWS_REGION
   AWS_REGION: us-west-1
   EB_ENVIRONMENT_NAME: Springbootreact-env
@@ -52,10 +52,10 @@ jobs:
         run: echo "::set-output name=BUILD_NUMBER::$(date '+%-d.%-m.%Y.%-H.%-M.%-S')"
 
       - name: Docker Login
-        uses: docker/login-action@f3364599c6aa293cdc2b8391b1b56d0c30e45c8a
+        uses: docker/login-action@v2
         with:
-          username: ${{ env.DOCKER_HUB_USERNAME }}
-          password: ${{ secrets.DOCKER_HUB_PASSWORD }}
+          username: ${{ env.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_PASSWORD }}
 
       - name: Maven Clean Package and Push to Dockerhub
         run: |
